@@ -1,0 +1,38 @@
+body{
+    max-height: 100vh;
+    margin: 0 auto;
+}
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.card{
+    text-align: center;
+    width: 200px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px rgb(222, 202, 185);
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid rgb(159, 156, 156);
+}
+.card h3{
+    font-size: 20px;
+    margin: 5px;
+}
+.card h6{
+    font-size: 14px;
+    margin: 0;
+    font-weight: normal;
+}
+.card p{
+    text-align:left;
+    font-size: 15px;
+}
